@@ -16,10 +16,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"AdrianaSilva" is a splash screen and contains a nice photo of Adriana Silva
+"AdrianaSilva" is a splash screen and contains a nice photo of Adriana
+Silva.
 
 %description -l pl
-Ekran startowy KDE "AdrianaSilva" zawiera ca³kiem mi³y obrazek Adriany Silvy
+Ekran startowy KDE "AdrianaSilva" zawiera ca³kiem mi³y obrazek Adriany
+Silvy.
 
 %prep
 %setup -q -c
