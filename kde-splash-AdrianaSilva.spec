@@ -2,7 +2,7 @@
 %define		_splash		AdrianaSilva
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	01
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 "AdrianaSilva" is a splash screen and contains a nice photo of Adriana
 Silva.
 
-%description -l pl
-Ekran startowy KDE "AdrianaSilva" zawiera ca≥kiem mi≥y obrazek Adriany
+%description -l pl.UTF-8
+Ekran startowy KDE "AdrianaSilva" zawiera ca≈Çkiem mi≈Çy obrazek Adriany
 Silvy.
 
 %prep
